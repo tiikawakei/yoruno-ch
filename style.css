@@ -6,7 +6,7 @@
 .header{
     padding: 32px;
     text-align: center;
-    background: linear-gradient(135deg, #b0c4de, #7fffd4);
+    background: linear-gradient(135deg, #ed6d3d, #59b9c6);
     color: white;
     text-shadow:  2px 2px 4px rgba(0,0,0,0.3);
 }
@@ -39,7 +39,9 @@
 .content-item{
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1)
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: white;
+    
 }
 
 .content-text{
@@ -47,7 +49,14 @@
 }
 
 .content-item h3{
-    color: #f09199;
+    color: #ea5532;
     font-size: 21px;
     margin-bottom: 8px;
+    
 }
+
+   body{
+    background-image:url("./imgs/haikei.png")
+}
+
+
